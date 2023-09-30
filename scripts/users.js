@@ -14,7 +14,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
             const button = document.createElement('button');
             button.innerText = 'Details';
             button.onclick = () => {
-                location.href = `./user-details.html?id=${user.id}`;
+                location.href = `./pages/user-details.html?id=${user.id}`;
             };
 
             div.append(p, button);
