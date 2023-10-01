@@ -42,7 +42,7 @@ postsButton.onclick = () => {
             .then(posts => {
                 for (const post of posts) {
                     const div = document.createElement('div');
-                    div.classList.add('user');
+                    div.classList.add('post');
 
                     const p = document.createElement('p');
                     p.innerText = `${post.id}. ${post.title}`;

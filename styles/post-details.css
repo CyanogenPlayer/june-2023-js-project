@@ -1,0 +1,19 @@
+.postInfo {
+    background: #95b5e8;
+    font-size: 17px;
+}
+
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.comment {
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+    background: #95e8b6;
+    font-size: 15px;
+}
